@@ -1,0 +1,7 @@
+---
+layout: post
+title: November 01
+---
+
+* Read about C control structures and type declarations.
+* Practiced making frequency dependent array calculations in my head.
