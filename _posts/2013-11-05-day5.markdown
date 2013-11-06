@@ -3,25 +3,25 @@ layout: post
 title: November 05
 ---
 
-* Met a fellow that may become a new, additional collaborator. He is developing
-  an autonomous, robotic mini-whale and he wants it to have sonar.  In return
-  for my array knowledge, he suggested that he might be able to assist me in
+* Met a fellow that may become a new collaborator. He is developing an
+  autonomous, robotic, mini-whale and he wants it to have sonar.  In return for
+  my array knowledge, he suggested that he might be able to assist me in
   developing firmware (maybe during December, he seems too busy for the next
   month).
 * I spend a lot of time thinking about how to repurpose Don Hummels' libece-486
   for more channels; I've been thinking about it on and off nearly every day
   since I re-read it recently.
 * Flipped through a copy of Van Trees' *Optimum Array Processing* this
-  afternoon.  I will need it to help me quantify the error of the
-  system I will build. I imagined receiving the entire series for Christmas, I
-  was wearing red, flannel pajamas, I was sitting in front of the Christmas
-  tree and I held them in my arms, and said something like, "This is so
-  WONDERFUL!", and there was a fireplace in the background where I could sit
-  and learn all about detection, estimation, and modulation theory, and I had a
-  mug of cocoa to drink and there was Christmas music playing in the background
-  and all was well.  And then I remembered that I have a two-year-old, and I
-  imagined her "decorating" all the pages (there are a lot of pages) and then I
-  decided that I would have to keep them at work.  :(
+  afternoon.  I will need it to help me quantify the error of the system I will
+  build. I imagined receiving the entire series for Christmas, I was wearing
+  red, flannel pajamas, I was sitting in front of the Christmas tree and I held
+  them in my arms, and said something like, "This is so WONDERFUL!", and there
+  was a fireplace where I could sit and learn all about detection, estimation,
+  and modulation theory, and I had a mug of cocoa to drink and there was
+  Christmas music playing in the background and all was well.  And then I
+  remembered that I have a two-year-old, and I imagined her "decorating" all
+  the pages (there are a lot of pages) and then I decided that I would have to
+  keep them at work.  :(
 * Wrote ADC related code for PSAS. The rocket control software needs to check
   on several batteries and I am in charge of the code for doing so. It is good
   practice for ChibiOS use.
