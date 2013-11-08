@@ -1,0 +1,18 @@
+---
+layout: post
+title: November 07
+---
+
+* Thought a lot about the cabling/connector issue. The mic modules I will use
+  have regular header pins on them.  So, I will make a mounting board on single
+  sided PCB. It will have female headers at several locations to accamodate
+  multiple spacings and number of sensors depending on the design frequency and
+  will allow for a single power line to all sensors.  I find this idea to be
+  rather brilliant.  This will also make it easy to attach through-hole
+  connectors of any type.  AND it will be easy to attach the entire thing to
+  other things for mounting purposes. Expect a gerber layout this week.
+* Told my wife about this great idea and realized that doing multiple
+  frequencies will be tricky because more sensors means more unique signal
+  lines that would have to cross paths in order to support say 3 sensor and
+  also 8 sensor configurations.  Just had the idea that jumpers could solve
+  this problem. (Rubber ducky programming works! Thanks Theo.)

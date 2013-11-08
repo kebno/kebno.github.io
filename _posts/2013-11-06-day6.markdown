@@ -1,0 +1,9 @@
+---
+layout: post
+title: November 06
+---
+
+* Looked at hardware to purchase on several websites. Cabling is easy,
+  connectors are hard.  I'm not sure whether I want to use BNC or RCA or
+  regular stereo plugs.
+* Tried to identify the parts of libece-486 that I will need to change.
