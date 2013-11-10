@@ -1,0 +1,8 @@
+---
+layout: post
+title: November 9
+---
+
+* Tried to install a "recent and solid version of Kicad" on OS X. FAIL.
+* While I waited for things to compile, I watched "Return to Oz" (weird)
+  and "It Takes Two" (1995), both of which are on YouTube.
