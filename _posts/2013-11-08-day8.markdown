@@ -1,0 +1,7 @@
+---
+layout: default
+title: November 08
+---
+
+* Calculated sample rates that work with clocks and sampling times.
+  I have a set of general equations to use in the future.
