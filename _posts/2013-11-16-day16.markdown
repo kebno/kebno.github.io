@@ -1,0 +1,8 @@
+---
+layout: post
+title: November 16
+---
+
+* Installed Kicad on laptop FTW!
+* Created partial layout of version sputnik, 4-ch. board.
+* Selected connectors to order.
