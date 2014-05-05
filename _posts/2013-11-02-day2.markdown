@@ -1,9 +1,0 @@
----
-layout: post
-title: November 02
----
-
-* Put an ChibiOS ADC driver demo into its own branch in the beamformer
-repo. Once I work out the input circuit again, this will become a demo
-within the PSAS stm32f4 development repo.
-

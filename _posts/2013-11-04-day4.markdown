@@ -1,8 +1,0 @@
----
-layout: post
-title: November 04
----
-
-* Read through several examples of audio I/O on the STM32F4xx chips.
-* Studied about C pointers.
-* Refreshed my memory of signal conditioning circuits and how to use audio transformers in them..
