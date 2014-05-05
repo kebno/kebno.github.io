@@ -1,0 +1,233 @@
+---
+---
+
+<!DOCTYPE html>
+<! This layout is a modified form of 
+http://www.webmonkey.com/2010/02/Blank_HTML_Document_With_Left_Nav/ 
+webmonkey is a great site.>
+<head>
+<meta charset="utf-8" />
+	<title>National [Acoustic] Beamformer Building Month</title>
+
+	<style type="text/css">
+		* { margin: 0; padding: 10; }
+		html { height:100%; }
+
+		body {
+
+		text-align: left;
+
+		width: 100%;
+
+		height: 100%;
+
+		font-size: 80%;
+
+		font-family: Helvetica, arial, sans-serif;
+
+		color: #000;
+
+		background: #fff;
+
+		margin: 0;
+
+		border: 0;
+
+		padding: 0; }
+
+
+		a { color:#007ca5; text-decoration:none; outline: none; }
+
+		a:visited { color:#666; }
+
+		a:active { color:#999; }
+
+
+		.left_col a { color:#fff; text-decoration: none; outline: none; }
+
+		.left_col a:hover { color:#fff; text-decoration: underline; outline: none; }
+
+		.left_col a:visited { color:#fff; }
+
+		.left_col a:active { color:#fff; }
+
+
+		img, a img { border-style: none; }
+
+
+		h1, .h1 { font-size: 2.4em; }
+
+		h2, .h2 { font-size: 2em; } /* 20pt */
+
+		h3, .h3 { font-size: 1.8em; } /* 18pt */
+
+		h4, .h4 { font-size: 1.6em; } /* 16pt */
+
+		h5, .h5 { font-size: 1.4em; } /* 14pt */
+
+		h6, .h6 { font-size: 1.1em; } /* 11pt */
+
+
+		.small { font-size: .9em; }
+
+
+		.clearer { clear:both; }
+
+
+		.header {
+
+			text-align: center;
+
+			background: #991111;
+
+			color: #fff;
+
+			width: 880px;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.left_col {
+
+			text-align: left;
+
+			float: left;
+
+			background: #0066FF;
+
+			color: #fff;
+
+			width: 150px;
+
+			height: auto;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.main_col {
+
+			text-align: left;
+
+			float: left;
+
+			background: #fff;
+
+			color: #000;
+
+			width: 500px;
+
+			height: auto;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: auto;
+
+			}
+
+
+
+		.footer {
+
+			text-align: left;
+
+			background: #eceae1;
+
+			color: #000;
+
+			width: 880px;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.wrapper {
+
+			text-align: center;
+
+			width: 1000px;
+
+			margin-left: auto;
+
+			margin-right: auto;
+
+			}
+
+	</style>
+</head>
+<body>
+  	<div class="wrapper">
+		<! HEADER > 
+		<div class="header">
+			<br />
+			<h1>National [Acoustic] Beamformer Building Month</h1>
+			<br /><br />
+		</div>
+
+		<! LEFT COLUMN CONTENT >
+		<div class="left_col">
+			<h5>"This is a website."</h5>
+			<br />
+			By John Boyle,<br> from Portland, Oregon.
+		</div>
+
+		<! MAIN CONTENT >
+		<div class="main_col">
+			<h2>2013 Posts</h2>
+		<ul>
+			{% for post in site.posts reversed %}
+			<div>
+				<br>
+				<h3>{{ post.title }}</h3>
+				<br>
+				{{ post.content }}
+				<br><hr />
+			</div>
+
+			{% endfor %}
+		</ul>
+		</div>
+
+
+		<br class="clearer" /">
+		<div class="footer">
+			<span class="small">
+				This is a footer.
+				<br />
+			</span>
+		</div>
+
+  	</div>
+</body>
+
+</html>
+

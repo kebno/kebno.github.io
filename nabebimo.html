@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<! This layout is a modified form of 
+http://www.webmonkey.com/2010/02/Blank_HTML_Document_With_Left_Nav/ 
+webmonkey is a great site.>
+<head>
+<meta charset="utf-8" />
+	<title>National [Acoustic] Beamformer Building Month</title>
+
+	<style type="text/css">
+		* { margin: 0; padding: 10; }
+		html { height:100%; }
+
+		body {
+
+		text-align: left;
+
+		width: 100%;
+
+		height: 100%;
+
+		font-size: 80%;
+
+		font-family: Helvetica, arial, sans-serif;
+
+		color: #000;
+
+		background: #fff;
+
+		margin: 0;
+
+		border: 0;
+
+		padding: 0; }
+
+
+		a { color:#007ca5; text-decoration:none; outline: none; }
+
+		a:visited { color:#666; }
+
+		a:active { color:#999; }
+
+
+		.left_col a { color:#fff; text-decoration: none; outline: none; }
+
+		.left_col a:hover { color:#fff; text-decoration: underline; outline: none; }
+
+		.left_col a:visited { color:#fff; }
+
+		.left_col a:active { color:#fff; }
+
+
+		img, a img { border-style: none; }
+
+
+		h1, .h1 { font-size: 2.4em; }
+
+		h2, .h2 { font-size: 2em; } /* 20pt */
+
+		h3, .h3 { font-size: 1.8em; } /* 18pt */
+
+		h4, .h4 { font-size: 1.6em; } /* 16pt */
+
+		h5, .h5 { font-size: 1.4em; } /* 14pt */
+
+		h6, .h6 { font-size: 1.1em; } /* 11pt */
+
+
+		.small { font-size: .9em; }
+
+
+		.clearer { clear:both; }
+
+
+		.header {
+
+			text-align: center;
+
+			background: #991111;
+
+			color: #fff;
+
+			width: 880px;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.left_col {
+
+			text-align: left;
+
+			float: left;
+
+			background: #0066FF;
+
+			color: #fff;
+
+			width: 150px;
+
+			height: auto;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.main_col {
+
+			text-align: left;
+
+			float: left;
+
+			background: #fff;
+
+			color: #000;
+
+			width: 500px;
+
+			height: auto;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: auto;
+
+			}
+
+
+
+		.footer {
+
+			text-align: left;
+
+			background: #eceae1;
+
+			color: #000;
+
+			width: 880px;
+
+			margin: 0 0 0 0;
+
+			border: 0;
+
+			padding: 10px;
+
+			overflow: hidden;
+
+			}
+
+
+
+		.wrapper {
+
+			text-align: center;
+
+			width: 1000px;
+
+			margin-left: auto;
+
+			margin-right: auto;
+
+			}
+
+	</style>
+</head>
+<body>
+  	<div class="wrapper">
+		<! HEADER > 
+		<div class="header">
+			<br />
+			<h1>National [Acoustic] Beamformer Building Month</h1>
+			<br /><br />
+		</div>
+
+		<! LEFT COLUMN CONTENT >
+		<div class="left_col">
+			<h5>"This is a website."</h5>
+			<br />
+			By John Boyle,<br> from Portland, Oregon.
+		</div>
+
+		<! MAIN CONTENT >
+		<div class="main_col">
+			<h2>2013 Posts</h2>
+		<ul>
+			
+			<div>
+				<br>
+				<h3>November 01</h3>
+				<br>
+				<ul>
+<li>Read about C control structures and type declarations.</li>
+
+<li>Practiced making frequency dependent array calculations in my head.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 02</h3>
+				<br>
+				<ul>
+<li>Put an ChibiOS ADC driver demo into its own branch in the beamformer repo. Once I work out the input circuit again, this will become a demo within the PSAS stm32f4 development repo.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 03</h3>
+				<br>
+				<ul>
+<li>Prepared this website to chronicle the month’s work.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 04</h3>
+				<br>
+				<ul>
+<li>Read through several examples of audio I/O on the STM32F4xx chips.</li>
+
+<li>Studied about C pointers.</li>
+
+<li>Refreshed my memory of signal conditioning circuits and how to use audio transformers in them..</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 05</h3>
+				<br>
+				<ul>
+<li>Met a fellow that may become a new collaborator. He is developing an autonomous, robotic, mini-whale and he wants it to have sonar. In return for my array knowledge, he suggested that he might be able to assist me in developing firmware (maybe during December, he seems too busy for the next month).</li>
+
+<li>I spend a lot of time thinking about how to repurpose Don Hummels’ libece-486 for more channels; I’ve been thinking about it on and off nearly every day since I re-read it recently.</li>
+
+<li>Flipped through a copy of Van Trees’ <em>Optimum Array Processing</em> this afternoon. I will need it to help me quantify the error of the system I will build. I imagined receiving the entire series for Christmas, I was wearing red, flannel pajamas, I was sitting in front of the Christmas tree and I held them in my arms, and said something like, “This is so WONDERFUL!”, and there was a fireplace where I could sit and learn all about detection, estimation, and modulation theory, and I had a mug of cocoa to drink and there was Christmas music playing in the background and all was well. And then I remembered that I have a two-year-old, and I imagined her “decorating” all the pages (there are a lot of pages) and then I decided that I would have to keep them at work. :(</li>
+
+<li>Wrote ADC related code for PSAS. The rocket control software needs to check on several batteries and I am in charge of the code for doing so. It is good practice for ChibiOS use.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 06</h3>
+				<br>
+				<ul>
+<li>Looked at hardware to purchase on several websites. Cabling is easy, connectors are hard. I’m not sure whether I want to use BNC or RCA or regular stereo plugs.</li>
+
+<li>Tried to identify the parts of libece-486 that I will need to change.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 07</h3>
+				<br>
+				<ul>
+<li>Thought a lot about the cabling/connector issue. The mic modules I will use have regular header pins on them. So, I will make a mounting board on single sided PCB. It will have female headers at several locations to accamodate multiple spacings and number of sensors depending on the design frequency and will allow for a single power line to all sensors. I find this idea to be rather brilliant. This will also make it easy to attach through-hole connectors of any type. AND it will be easy to attach the entire thing to other things for mounting purposes. Expect a gerber layout this week.</li>
+
+<li>Told my wife about this great idea and realized that doing multiple frequencies will be tricky because more sensors means more unique signal lines that would have to cross paths in order to support say 3 sensor and also 8 sensor configurations. Just had the idea that jumpers could solve this problem. (Rubber ducky programming works! Thanks Theo.)</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 08</h3>
+				<br>
+				<ul>
+<li>Calculated sample rates that work with clocks and sampling times. I have a set of general equations to use in the future.</li>
+
+<li>Wondered why nobody has made a general purpose DSP board, even just for plain old music audio effects and fun. If they have, PLEASE tell me about it, unless the answer involves VHDL. :(</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 9</h3>
+				<br>
+				<ul>
+<li>Tried to install a “recent and solid version of Kicad” on OS X. FAIL.</li>
+
+<li>While I waited for things to compile, I watched “Return to Oz” (weird) and “It Takes Two” (1995), both of which are on YouTube.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 10</h3>
+				<br>
+				<ul>
+<li>Sabbath day: Went to church because I want to be more like Jesus Christ, especially how He was nice to people and didn’t care about wealth and fame and recognition. AND He said “No” to greed. I hate greed because it makes nice people really mean and cold, and we all can’t get good things accomplished when its around.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 11</h3>
+				<br>
+				<ul>
+<li>Veterans Day. Thought about how silly war has become in America.</li>
+
+<li>We don’t even know what war is anymore, we go to war with lots of things like “drugs”, “crime”, “terror”, “obesity”, “poverty”. The last time I checked, none of those things wanted to invade our country and kill everyone and take away freedom.</li>
+
+<li>Installed Kicad in Linux. apt-get install FTW!</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 12</h3>
+				<br>
+				<ul>
+<li>Completed a Kicad tutorial.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 13</h3>
+				<br>
+				<ul>
+<li>Purchased a few parts at Surplus Gizmos. Awesome store!</li>
+
+<li>Left undecided whether or not to build easy, replaceable low-pass filters for when sample rates change. Probably not for version sputnik.</li>
+
+<li>Did a lot of mental sketching while working on class project. Most of the design work for this project is happening throughout the day. It unusual for there to be a new sketch or schematic at the end of the day even though I may have done a re-design in my head.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 14</h3>
+				<br>
+				<ul>
+<li>Thinking only. All other time consumed by a work report.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 15</h3>
+				<br>
+				<ul>
+<li>Thinking a little. Nothing else.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 16</h3>
+				<br>
+				<ul>
+<li>Installed Kicad on laptop FTW!</li>
+
+<li>Created partial layout of version sputnik, 4-ch. board.</li>
+
+<li>Selected connectors to order.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 17</h3>
+				<br>
+				<ul>
+<li>Sabbath: Attend a multi-congregation meeting.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+			<div>
+				<br>
+				<h3>November 26</h3>
+				<br>
+				<ul>
+<li>The first time I heard about NaNoWriMo, I fell in love with the idea. I even tried it for a few days that year, but I gave up because I am too busy in November to write that much.</li>
+
+<li>I started NaBeBuiMo because I knew deep down that I wouldn’t have time to complete version 0 of the beamformer before December. I tried.</li>
+
+<li>NaNoWriMo would be much more of a social force if they didn’t do it in during the month of stress for college students.</li>
+
+<li>This has been an awesome adventure. I’m proud of the work that I’ve done, and I think I’ve worked out most of the details. All that is left is the building and testing (at least for version 0).</li>
+
+<li>I will focus now on completing a graduate school application before the end of the week.</li>
+
+<li>Then, I will make a one page flyer about what I have done for NaBeBuiMo to take with me to a conference next week.</li>
+
+<li>NaBeBuiMo is over. Maybe I will do it again next year, but during a different month.</li>
+</ul>
+				<br><hr />
+			</div>
+
+			
+		</ul>
+		</div>
+
+
+		<br class="clearer" /">
+		<div class="footer">
+			<span class="small">
+				This is a footer.
+				<br />
+			</span>
+		</div>
+
+  	</div>
+</body>
+
+</html>
+
