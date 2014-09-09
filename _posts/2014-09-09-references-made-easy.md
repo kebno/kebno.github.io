@@ -23,10 +23,10 @@ However, I write in Vim and can use its built-in commands to search for and
 delete every unwanted entry.  The following does the trick, prompting you for
 each removal: `:%s/,\n\s*file = {.*}//gc`.
 
-To explain, it is the substitude command (`:s`), in the current buffer (`:%s`),
+To explain, it is the substitute command (`:s`), in the current buffer (`:%s`),
 searching for a comma then newline then whitespace (`,\n\s*`), then the text
 "`file = `", and finally, the curly braces and any characters in-between
-(`{.*}`). The trailing `gc` means replace all occurences in each line (`g`),
+(`{.*}`). The trailing `gc` means replace all occurrences in each line (`g`),
 and confirm each substitution (`c`). 
 
 For more information on the substitute command, read the Vim help files by
