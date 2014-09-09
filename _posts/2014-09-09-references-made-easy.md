@@ -17,7 +17,7 @@ have a full reference in the format of your choosing.
 The Quick Copy BibTeX reference will often include a long entry for the locally
 stored version of the document. For me, and probably for you too, there is no
 need to share that local file location.  You can remove it easily from the
-reference using standard Unix tools (e.g. `sed`, `perl`). 
+reference using standard Unix tools (e.g. `sed`). 
 
 However, I write in Vim and can use its built-in commands to search for and
 delete every unwanted entry.  The following does the trick, prompting you for
