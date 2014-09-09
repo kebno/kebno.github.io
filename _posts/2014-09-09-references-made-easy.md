@@ -21,10 +21,10 @@ reference using standard Unix tools (e.g. `sed`, `perl`).
 
 However, I write in Vim and can use its built-in commands to search for and
 delete every unwanted entry.  The following does the trick, prompting you for
-each removal: `:%s/,\n\sfile = {.*}//gc`.
+each removal: `:%s/,\n\s*file = {.*}//gc`.
 
 To explain, it is the substitude command (`:s`), in the current buffer (`:%s`),
-searching for a comma then newline then whitespace (`,\n\s`), then the text
+searching for a comma then newline then whitespace (`,\n\s*`), then the text
 "`file = `", and finally, the curly braces and any characters in-between
 (`{.*}`). The trailing `gc` means replace all occurences in each line (`g`),
 and confirm each substitution (`c`). 
