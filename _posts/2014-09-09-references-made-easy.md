@@ -3,6 +3,11 @@ layout: post
 title: Zotero Makes References Easy
 ---
 
+{{ page.title }}
+================
+
+<p class="meta">09 Sep 2014 - La Jolla, CA</p>
+
 I use [Zotero](http://www.zotero.org) to manage references for my research.
 It supports BibTeX export; great for writing papers in LaTeX.
 

@@ -5,28 +5,30 @@
 <title>{{ page.title }}</title>
 <meta name="author" content="John K. Boyle"/>
 
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="{{site.url}}/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="{{site.url}}/css/screen.css">
+
 <style>
 body { text-align: center;
 	font-size: 1.1;}
-.container { max-width: 640px; margin: 0 auto; text-align: left; }
+/*.container { max-width: 640px; margin: 0 auto; text-align: left; }*/
 a, a:visited, a:hover { text-decoration: none; }
 #sitename { text-align: right; }
 </style>
-
 </head>
 
 <body>
-<div class="container">
-	{{ content }}		
-<hr>
-</div>
+<div class="container site">
+  <div id=sitename class="title">
+	  <a href="{{ site.baseurl }}">John K. Boyle</a>
+  <hr>
+  </div>
+  
+  {{ content }}
 
 <div class="footer">
-	<p>&copy; Copyright 2014 John K. Boyle</p>
+	<p>&copy; Copyright 2015 John K. Boyle</p>
 	<p>Contact me via an email</p>
-</div>
+  </div>
 </div>
 </body>
 </html>

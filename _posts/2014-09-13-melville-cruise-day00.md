@@ -1,7 +1,12 @@
 ---
 layout: post
-title: Melville Cruise Day 00
+title: Melville Cruise, Day 00
 ---
+
+{{ page.title }}
+================
+
+<p class="meta">13 Sep 2014 - Pacific Ocean, West of Astoria, OR</p>
 
 Today begins a 10 day experiment on the R/V Melville  to measure ambient noise
 in the 3-6 kHz range in the deep ocean.  William Hodgkiss is the PI, and his
@@ -12,7 +17,7 @@ band.
 I am part of the trip because I am a graduate student in the Applied Ocean
 Sciences curricular group and a member of the [Marine Physical
 Laboratory](http://mpl.ucsd.edu) at University of California at San Diego. My
-adviser is William Kupermann.
+adviser is William Kuperman.
 
 #### Today's Events
   * Flew to San Jose, then to Portland, OR.

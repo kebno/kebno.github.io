@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<h1><a href="/">John K. Boyle</a></h1>
-Hi, I'm a graduate research assistant studying ocean acoustics
-at Portland State University.
+# Hello
+I'm a graduate research assistant studying ocean acoustics
+at Scripps Institution of Oceanography.
 
-I am part of the [Northwest Electromagnetics and Acoustics Research Laboratory](http://nearlab.ece.pdx.edu).
+From 2012-2014, I was a member of the [Northwest Electromagnetics and Acoustics Research Laboratory](http://nearlab.ece.pdx.edu).
 
-In my spare time, I work on software and hardware for the [Portland State Aerospace Society](http://psas.pdx.edu).
+From 2008-2012, I was a member of the Acoustics Research Group and ASA student chapter at Brigham Young University.
 
-----------
+From 2007-2009, I was Assistant to the General Manager and a Producer for Classical 89, KBYU-FM.
+
 
 ## Blog Posts
 <ul class="posts">
@@ -19,9 +20,23 @@ In my spare time, I work on software and hardware for the [Portland State Aerosp
 {% endfor %}
 </ul>
 
+
 ## Current Projects
-* [PSAS Launch Tower Comm](http://github.com/psas/launch-tower-comm)
+<ul class="posts">
+
+</ul>
 
 ## Past Projects
-* [2013 National Acoustic Beamformer Building Month](/nabebimo.html)
+<ul class="posts">
+  <li><a href="/nabebimo.html">2013 National Acoustic Beamformer Building Month</a></li>
+  <li><a href="http://github.com/psas/launch-tower-comm">PSAS Launch Tower Comm</a></li>
+</ul>
+
+
+## Computing Notes
+<ul class="posts">
+{% for note in site.notes %}
+<li><a href="{{ note.url }}">{{ note.title }}</a></li>
+{% endfor %}
+</ul>
 

@@ -3,6 +3,11 @@ layout: post
 title: Weekly Catchup
 ---
 
+{{ page.title }}
+================
+
+<p class="meta">11 Aug 2014 - La Jolla, CA</p>
+
 ## Thing 1
 
 ![view from my window]({{site.url}}/images/trees.jpg)
