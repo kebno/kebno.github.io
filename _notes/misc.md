@@ -3,6 +3,9 @@ layout: note
 title: Miscellaneous
 ---
 
+## Vertical Selection in Vim
+    :help ctrl-v
+
 ## Markdown Syntax Quirks
 
 1. Code blocks within a list must be indented by 8 spaces.
