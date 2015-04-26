@@ -366,3 +366,23 @@ Hope this helps.
     lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
     lg = !"git lg1"
     
+### Important .vimrc Settings
+
+    execute pathogen#infect()
+    syntax enable
+    filetype plugin indent on
+    set number
+    set backspace=indent,eol,start
+                  " allow backspacing over everything in insert mode
+
+    inoremap kj <Esc>
+
+    set guifont=Droid\ Sans\ Mono\ 13
+    colorscheme github
+
+    " Filetype settings
+    autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+    autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+    au BufNewFile,BufRead *.md set filetype=markdown
+
+    set mouse=a
