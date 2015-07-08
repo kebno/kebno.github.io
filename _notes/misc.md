@@ -3,6 +3,24 @@ layout: note
 title: Miscellaneous
 ---
 
+## "Essential" Downloads for OS X
+
+* Averia fonts
+* Brackets for Web stuff
+* Droid Sans Mono Dotted or Dashed font
+* FocusWriter
+* FunctionFlip
+* Gentium Font
+* Inkscape
+* NoSleep
+* QLMarkdown
+* QLStephen (QL for README and others)
+* Tomighty (pomodoro timer)
+* Tower
+* VirtualBox
+* XQuartz
+* Homebrew
+
 ## Vertical Selection in Vim
     :help ctrl-v
 
