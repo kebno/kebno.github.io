@@ -418,3 +418,7 @@ Hope this helps.
     " Set in .gvimrc
     "   set guifont=Source\ Code\ Pro\ Light:h13
     set mouse=a
+
+# Finding things on the command line
+
+    $ find . -perm -111 -type f | grep "some-name"  # find executables
