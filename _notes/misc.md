@@ -384,23 +384,41 @@ Hope this helps.
     lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
     lg = !"git lg1"
     
-### Important .vimrc Settings
-
+# .vimrc 
+    "must-have pathogen packages:
+    "  vim-airline
+    "  vim-markdown-folding
+    "  vim-sensible
     execute pathogen#infect()
-    syntax enable
+    syntax on
     filetype plugin indent on
+
+    set ruler
     set number
-    set backspace=indent,eol,start
-                  " allow backspacing over everything in insert mode
+    set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
     inoremap kj <Esc>
 
-    set guifont=Droid\ Sans\ Mono\ 13
-    colorscheme github
+    " Simple filetype settings
+    autocmd BufNewFile,BufReadPost *.md setlocal filetype=markdown tw=80 sw=4 sts=4 ts=4 expandtab smarttab
+    nnoremap <Space> za
 
-    " Filetype settings
-    autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
-    autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
-    au BufNewFile,BufRead *.md set filetype=markdown
+    autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab smarttab
+    autocmd FileType html setlocal ts=4 sts=4 sw=4 expandtab
+    autocmd FileType css setlocal ts=4 sts=4 sw=4 expandtab
 
+    set runtimepath+=~/.vim/ftplugin
+
+    " Fonts I like:
+    "   Droid Sans Mono Slashed or Dotted
+    "   Averia Sans (other editors not Vim)
+    "   Inconsolata
+    "   Source Code Pro Ligh
+    "
+    " Set in .gvimrc
+    "   set guifont=Source\ Code\ Pro\ Light:h13
     set mouse=a
+
+# Finding things on the command line
+
+    $ find . -perm -111 -type f | grep "some-name"  # find executables
