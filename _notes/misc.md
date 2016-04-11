@@ -422,3 +422,14 @@ Hope this helps.
 # Finding things on the command line
 
     $ find . -perm -111 -type f | grep "some-name"  # find executables
+
+# Check exit status of a pipeline
+
+    $ echo "Hello" | head -n1 | wc > /dev/null 
+    $ echo "${PIPESTATUS[@]}"
+    0 0 0
+
+# Find location of executable on PATH
+
+    $ type -f git
+    git is /usr/bin/git
