@@ -3,8 +3,9 @@ layout: default
 ---
 
 # Hello
-I'm a graduate research assistant studying ocean acoustics
-at Scripps Institution of Oceanography.
+I'm a Staff Scientist at Ocean Acoustical Services and Instrumentation Systems, Inc.
+
+From 2014-2015, I studied ocean acoustic modelling at Scripps Institution of Oceanography, with Bill Kupermann as advisor.
 
 From 2012-2014, I was a member of the [Northwest Electromagnetics and Acoustics Research Laboratory](http://nearlab.ece.pdx.edu).
 
