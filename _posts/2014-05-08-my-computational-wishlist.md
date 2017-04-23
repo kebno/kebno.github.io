@@ -8,6 +8,8 @@ title: My computational wishlist
 
 <p class="meta">08 May 2014 - Portland, OR</p>
 
+**Update (20 Mar 2017): That something is C. I've been using C and bash scripting for the last year and a half, and it does this all.**
+
 1. Single installer, install everything by imports
 1. Cross-platform
 1. Can call C and Fortran out of the box
