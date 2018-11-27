@@ -5,13 +5,13 @@ layout: default
 # Hello
 I'm a Staff Scientist at Ocean Acoustical Services and Instrumentation Systems, Inc.
 
-From 2014-2015, I studied ocean acoustic modelling at Scripps Institution of Oceanography, with Bill Kupermann as advisor.
+From 2014-2015, I studied ocean acoustic modeling at Scripps Institution of Oceanography, with Bill Kupermann as advisor.
 
 From 2012-2014, I was a member of the [Northwest Electromagnetics and Acoustics Research Laboratory](http://nearlab.ece.pdx.edu).
 
 From 2008-2012, I was a member of the Acoustics Research Group and ASA student chapter at Brigham Young University.
 
-From 2007-2009, I was Assistant to the General Manager and a Producer for Classical 89, KBYU-FM.
+From 2007-2009, I was Assistant to the General Manager and a Producer at Classical 89, KBYU-FM.
 
 
 ## Blog Posts
