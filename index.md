@@ -3,7 +3,9 @@ layout: default
 ---
 
 # Hello
-I'm a Staff Scientist at Ocean Acoustical Services and Instrumentation Systems, Inc.
+I'm a Staff Scientist at Applied Ocean Sciences.
+
+From 2015-2019, I was a staff scientist at Ocean Acoustical Services and Instrumentation Systems, Inc.
 
 From 2014-2015, I studied ocean acoustic modeling at Scripps Institution of Oceanography, with Bill Kupermann as advisor.
 
